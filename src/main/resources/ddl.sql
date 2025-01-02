@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS Productos;
+
+CREATE TABLE Productos (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nombre TEXT NOT NULL,
+    Descripcion TEXT NOT NULL,
+    Precio REAL NOT NULL,
+    Cantidad INTEGER NOT NULL
+);
